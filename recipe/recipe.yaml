@@ -1,5 +1,5 @@
 context:
-  version: "0.0.7"
+  version: "0.1.0rc0"
 
 package:
   name: jupyter-ai-router
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/j/jupyter-ai-router/jupyter_ai_router-${{ version }}.tar.gz
-  sha256: 2ebacc29455476392963480bf8cb7becd35f81d2589a0ee663128e8eb6316758
+  sha256: d569b1e8f4d96dd8b071a0cbff06179efb9fb72775603211060ba1f0430facd0
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - jupyter_server >=2.4.0,<3
-    - jupyterlab-chat >=0.19.0
+    - jupyterlab-chat >=0.25.0rc0
 
 tests:
   - python:
