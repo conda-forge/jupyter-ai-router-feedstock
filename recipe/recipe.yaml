@@ -1,5 +1,5 @@
 context:
-  version: "0.1.1"
+  version: "0.1.2"
 
 package:
   name: jupyter-ai-router
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/j/jupyter-ai-router/jupyter_ai_router-${{ version }}.tar.gz
-  sha256: 81a60bd9ddce409bf14ca44a77b87e81f8dd2a3a6bf8147d28579cd8f2d1846e
+  sha256: 987c3215a7e8a6d9d06bc6796a1b7c5f8ebc7a61575bb4439ff07b49920f259b
 
 build:
   noarch: python
